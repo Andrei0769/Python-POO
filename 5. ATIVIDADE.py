@@ -17,7 +17,7 @@ class funcionario:
         self.email = email
         self.endereco = endereco
 
-     # abstractmethod é para funcionar o ABC abstratto
+    #abstractmethod é para funcionar o ABC abstratto
     @abstractmethod
     def calcular_salario (self) -> float:
         pass
