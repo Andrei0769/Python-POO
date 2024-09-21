@@ -43,6 +43,7 @@ class gerente(Funcionario):
             raise ValueError("O salário do gerente não pode exceder R$6500,00")
         super().__init__(nome, email, salario, endereco)  # Chama o construtor da classe base Funcionario
 
+
 # Testando as classes
 try:
     motoboy1 = motoboy("Josué", "Josué123@gmail.com", 500.0, # cria uma instância de motoboy
@@ -55,5 +56,8 @@ try:
     gerente1 = gerente("Carvalho", "JoséCaravlho@gmail.com", 6000.0, # cria uma instância de gerente
                        Endereco("Rua", "450 E", "Salvador"))
     print(gerente1)
+
+    
+
 except ValueError as error:
     print(error)

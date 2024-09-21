@@ -59,5 +59,5 @@ conta_poupanca = ContaPoupanca(444,666)
 
 # Apresentado as variáveis do Codigo 
 print (conta_corrente.saldo)
-# print(conta_corrente.sacar(100))
+print(conta_corrente.sacar(100))
 print(conta_corrente.depositar(-100))
